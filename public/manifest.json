@@ -1,0 +1,14 @@
+{
+	"name": "Orange It Up!",
+	"description": "This extension is created for changing the background color of the page orange.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {},
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
